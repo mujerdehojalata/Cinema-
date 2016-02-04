@@ -1,0 +1,267 @@
+body {
+	font-family: "Nobile";
+	color: #c7c7c7;
+}
+
+header {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+header .row{
+	background-color: silver;
+}
+
+header img{
+	float: left;
+	padding-left: 40px;
+}
+
+header form {
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+}
+
+header #search {
+	width: 100%;
+	height: 40px;
+}
+
+/*--Primer --*/
+.primer{
+	background-color: #363636;
+}
+
+.primer img {
+	width: 100%;
+	margin-left: -14px;
+}
+
+.primer h1 {
+	font-size: 30px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #c7c7c7;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text_primer div {
+	margin-top: 20px;
+}
+
+.button_age {
+	border: 2px solid #3ccf68;
+	border-radius: 7px;
+	color: #3ccf68;
+	font-size: 11px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.button_age:hover{
+	background-color: #3ccf68;
+	border-radius: 7px;
+	color: white;
+	text-decoration: underline;   
+}
+
+.trailer {
+	margin-top: 10px;
+}
+
+.book_ticket {
+	margin: 20px 0px;
+}
+
+.button_trailer, .button_book {
+	background-color: #dfb636;
+	border-radius: 5px;
+	color: white;
+	font-size: 11px;
+	padding: 10px;
+	text-decoration: none;
+}
+.button_book {
+	background-color: #bb7b29;
+}
+.button_trailer:hover, .button_book:hover {
+	background-color: #ef0658;
+	border-radius: 5px;
+	color: white;
+	font-size: 11px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.text_primer p {
+	font-size: 11px;
+	display: inline-block;
+}
+
+.description {
+	font-weight: bold;
+	display: block;
+	width: 100px;
+}
+
+/*---------------- SECTION MOVIES ------------*/
+
+.movies {
+	background-color: #deb437;
+}
+
+.movies .row  {
+	padding: 20px 20px 20px 40px;
+}
+
+.movies .col-2 {
+	padding-left: 0;
+	padding-right: 20px;
+}
+.movies img {
+	width: 100%;
+	height: 180px;
+}
+
+/* --------------- iNFO - TICKETS -------------*/
+
+.info .ticket {
+	padding-left: 105px;
+}
+
+.info h2 {
+	margin-left: -14px;
+	color: black;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.info .ticket h3:nth-child(3) {
+	margin-top: 20px;
+}
+
+.info .ticket h5:last-child {
+	margin-top: 50px;
+	margin-left: -14px;
+	color: #ba7929;
+}
+
+.ticket .button_bookticket {
+	margin: 40px 0px 20px -14px;
+}
+
+.info .button_bookticket a {
+	color: white;
+	font-size: 12px;
+}
+
+.button {
+	background-color: #ba7929;
+	border-radius: 4px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.button:hover{
+	background: #3ccf68;
+	text-decoration: underline;   
+}
+
+/* --------------- iNFO - NEWS -------------*/
+
+.info {
+	padding: 30px 0px;
+}
+
+.info .news {
+	padding-left: 28px;
+}
+
+.info h5 {
+	color: black;
+	font-size: 12px;
+}
+
+.info h3 {
+	font-size: 24px;
+	margin-left: -14px;
+}
+
+.info p {
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+.info .news a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #e3bf5d;
+}
+
+.info .news a:hover {
+	color: #1d475c;
+	text-decoration: underline;
+}
+
+.info .news_description p:nth-child(2) {
+	margin-bottom: 0px;
+}
+
+.info .news_description {
+	border-bottom: 1px solid black;
+	border-color: #c7c7c7;
+	margin-right: 94px;
+	margin-top: 20px;
+}
+
+
+/* ----------- INFO - TOP MOVIES -------- */
+.top_movies .row{
+	padding: 30px 94px;
+}
+
+.top_movies .row .col-3 {
+	padding-right: 0;
+}
+
+.top_movies .row .col-3:first-child {
+	padding-left: 0;
+}
+.top_movies img{
+	width: 100%;
+	height: 250px;
+}
+/* ----------- FOOTER --------- */
+
+footer {
+	background-color: #f2f2f2;
+	color: #c7c7c7;
+}
+
+footer h6 {
+	font-size: 13px;
+}
+
+footer .foot_text {
+	padding: 30px 80px;	
+}
+
+footer p {
+	font-size: 11px;
+}
+
+footer p a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: #c7c7c7;
+}
+
+footer p a:hover {
+	color: #e3bf5d;
+	text-decoration: underline;
+}
